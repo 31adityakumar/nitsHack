@@ -18,3 +18,7 @@
 #payment{
     flex-direction: column;
 }
+*footer-bottom
+{
+    color: blue;
+}

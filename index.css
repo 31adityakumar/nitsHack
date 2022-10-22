@@ -168,3 +168,33 @@ html {
     border-radius: 20px;
     padding: 1rem 9%;
 }
+
+.footer{
+    display: flex;
+    /* position: relative; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.footer-content{
+    justify-content: center;
+    align-items: center;
+    
+    
+
+    padding: 20px;
+    margin: 6px;
+   
+
+}
+
+.social-box i{
+
+    height: 24px;
+    width: 73px;
+
+    
+}
