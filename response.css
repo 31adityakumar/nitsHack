@@ -18,7 +18,14 @@
 #payment{
     flex-direction: column;
 }
+.contact{
+    align-items: center;
+}
 *footer-bottom
 {
     color: blue;
+}
+.footer-content{
+    flex-direction: column;
+    justify-content: space-between;
 }

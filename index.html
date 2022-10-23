@@ -13,12 +13,12 @@
     <script src="index.js"></script>
     <title>Rent Your Way</title>
     <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="payement.html">
 </head>
 
 <body>
     <section class="header">
         <nav id="navbar">
-            <!-- <div id="menu-btn" class="fas fa-bars"></div> -->
             <h2><span>Rent</span> Your <span>Way</span></h2>
             <div id="logo">
                 <img src="logo.png" alt="rentyourway.com">
@@ -30,7 +30,6 @@
                 <li class="itmes"><a href="#about">About Us</a></li>
                 <li class="item"><a href="#contact">Contact Us</a></li>
                 <li class="item"><a href="login.html">Login</a></li>
-                <!-- <i class="far fa-user"></i> -->
             </ul>
         </nav>
     </section>
@@ -41,51 +40,35 @@
             <p>In campus bicycle rental service.</p>
         </div>
 
-        <div class="form">
-            <form action="connecion.php">
-
-                <input type="text" name="" placeholder="Scholar I'd">
-                <input type="text" name="" placeholder="Name">
-                <input type="text" number="" placeholder="Rental Hours">
+        <div class="row">
+            <div class="col-50">
+                <h3>DETAILS</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter your full name">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your e-mail id">
+                <label for="id"><i class="fa fa-address-card"></i> Scholar I'd</label>
+                <input type="text" id="adr" name="address" placeholder="Enter your Scholar I'd">
+                <label for="room-no"><i class="fa fa-institution"></i> Room Number</label>
+                <input type="text" id="city" name="city" placeholder="Enter your hostel room number">
                 <button class="button">Submit</button>
-            </form>
-    </section>
-    <section id="payment">
-        <div>
-            <h2>Rules n Regulations</h2>
-            <ol>
-                <li>A base
-                    price of Rs 5 and Rs 2
-                    per hour.</li>
-                <li>Return cycle on time, if
-                    not fine of Rs 5 per
-                    hour would be
-                    imposed.</li>
-                <li>
-                    You can keep cycle
-                    with you latest by
-                    10:00 PM
-                </li>
-            </ol>
+            </div>
+        </div>
 
-            <h2>Payment Instructions</h2>
-            <ul>
-                <li>
-                    Fill the above details firstly.
-                </li>
-                <li>
-                    Make payment through scanning QR Code or by UPI I'd.
-                </li>
-                <li>
-                    Wait for few seconds to get passcode.
-                </li>
-            </ul>
-        </div>
         <div>
-            <img src="paytm.jpeg" alt="">
-            <p>UPI- 8252819394@paytm</p>
+            <h2>
+                Payment Instructions
+            </h2>
+            <ul>
+                <li>Base rent is Rs 10, per hour add Rs 5.</li>
+                <li>Return cycle on time otherwise fine of Rs 50.</li>
+                <li>Latest time to keep cycle is 10:00 PM</li>
+                <li>To use first pay using UPI ID or click on PAY NOW</li>
+            </ul>
+            <button class="button"><a href="payement.html">PAY NOW</a></button>
         </div>
     </section>
+
     <section id="about">
         <div>
             <h2>About Us</h2>
@@ -104,65 +87,54 @@
     </section>
     <section id="contact">
         <div>
-            <h2> Contact US   <i class="far fa-user"></i>
+            <h2> Contact US <i class="far fa-user"></i>
             </h2>
             <h3 style="font-size: 1.25rem; font-weight: 600; text-align: center; letter-spacing: 0.5px;">Email Us at<a
-            href="malito:EMAIL_ADDRESS"> megalowings@gmail.com </a></h3>
+                    href="malito:EMAIL_ADDRESS"> megalowings@gmail.com </a></h3>
             <h3 style="font-size: 1.25rem; font-weight: 600; text-align: center; letter-spacing: 0.5px;">Call Us at<a
-            href="malito:EMAIL_ADDRESS"> +918252819394 </a></h3>
+                    href="malito:EMAIL_ADDRESS"> +918252819394 </a></h3>
             <h3></h3>
-            
+
 
         </div>
     </section>
-        
-</div>
-<footer class="footer">
-    <!-- Grid container -->
-    <div class="footer-content">
-      <!-- Section: Social media -->
-      <section class="social">
-        <!-- Facebook -->
-        <a class="social-box" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-        <!-- Twitter -->
-        <a class="social-box" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!-- Google -->
-        <a class="social-box" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="social-box" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a class="social-box" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
+
     </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <a class="text-white" href="rentmyway.com">RentMyWay</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
+    <footer class="footer">
+        <!-- Grid container -->
+        <div class="footer-content">
+            <!-- Section: Social media -->
+            <section class="social">
+                <!-- Facebook -->
+                <a class="social-box" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="social-box" href="https://twitter.com/adityakr_31" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="social-box" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="social-box" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="social-box" href="https://www.linkedin.com/in/adityakr31/" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/31adityakumar"
+                    role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Copyright -->
+        <div>
+            © 2022 Copyright:
+            <a class="text-white" href="rentmyway.com">RentMyWay</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 </body>
 
 </html>
