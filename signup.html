@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <h1 class="h-primary center"> Sign-up </h1>
+        <div class="box">
+            <form action="">
+                <div class="box-item">
+                    <label for="name">Name</label>
+                    <input type="text" name="Myname" id="name" placeholder="Enter your Full name">
+                    <label for="email">Email</label>
+                    <input type="email" name="MyEmail" id="email" placeholder="Enter your Email ID">
+                    <label for="scholar-id">Scholar-id</label>
+                    <input type="number" name="MyScholar-id" id="scholar-id" placeholder="Enter your Scholar ID">
+                    <label for="course">Course</label>
+                    <select name="MyCourse" id="course">
+                        <option value="btech" selected>B.Tech</option>
+                        <option value="mtech">M.Tech</option>
+                        <option value="msc">M.Sc</option>
+                        <option value="phd">Phd</option>
+                    </select>
+                    <label for="year">Current Year</label>
+                    <input type="number" name="MyYear" id="year" placeholder="1st/ 2nd/ 3rd/ 4th year">
+                    <label for="password">Password</label>
+                    <input type="password" name="MyPassword" id="password" placeholder="Enter your Password">
+                    <label for="password">Confirm Password</label>
+                    <input type="password" name="MyPassword" id="password" placeholder="Confirm your Password">
+                    <button class="btn">Sign-up</button>
+                </div>
+            </form>
+            <p> By clicking the sign up button you are agreeing the <a href="#">Terms and Conditions</a> and <a
+                    href="#">Policy</a></p>
+            
+        </div>
+        <p>Already have an account ? <a href="#">Log-in</a> here</p>
+    </div>
+</body>
+
+</html>
